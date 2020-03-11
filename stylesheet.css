@@ -40,7 +40,7 @@ a {
 	color: black;
 }
 a:hover {
-	color: pink;
+	color: green;
 }
 
 .gif {
@@ -78,10 +78,6 @@ h2 {
 img {
 	border-style: dashed;
 	border-color: white;
-}
-
-#nicolegif {
-	width: 100%;
 }
 
 .wrapper {
