@@ -26,3 +26,83 @@ html {
 	background-attachment: fixed;
 	height: 100%;
 }
+body > div {
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 13px;
+	font-family: 'Inconsolata';
+	color: white;
+	overflow: scroll;
+}
+
+a {
+	color: black;
+}
+a:hover {
+	color: pink;
+}
+
+.gif {
+	grid-area: gif;
+}
+.sidebar {
+	grid-area: sidebar;
+}
+
+.content {
+	grid-area: content;
+}
+
+.bio {
+	grid-area: bio;
+}
+
+.header {
+	grid-area: header;
+}
+
+h1 {
+	font-family: 'Concert One';
+	text-shadow: 4px 4px #000000;
+	font-size: 64px;
+	text-align: center;
+	color: pink;
+}
+
+h2 {
+	font-family: 'Concert One';
+	font-size: 50px;
+}
+
+img {
+	border-style: dashed;
+	border-color: white;
+}
+
+#nicolegif {
+	width: 100%;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 33% 34% 33%;
+	grid-template-areas:
+		'header header header'
+		'gif bio  bio'
+		'content content sidebar';
+
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.box {
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+
+.header {
+	text-align: justify;
+}
