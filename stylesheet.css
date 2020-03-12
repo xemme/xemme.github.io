@@ -19,8 +19,8 @@ html {
 		rgba(236, 144, 163, 1) 100%
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(
-			startColorstr='#5e00ff',
-			endColorstr='#ec90a3',
+			startColorstr='#f8af96',
+			endColorstr='#23c9e7',
 			GradientType=1
 		);
 	background-attachment: fixed;
@@ -37,8 +37,9 @@ body > div {
 }
 
 a {
-	color: black;
+	color: white;
 }
+
 a:hover {
 	color: green;
 }
@@ -46,6 +47,7 @@ a:hover {
 .gif {
 	grid-area: gif;
 }
+
 .sidebar {
 	grid-area: sidebar;
 }
