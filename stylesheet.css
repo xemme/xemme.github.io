@@ -66,10 +66,10 @@ a:hover {
 
 h1 {
 	font-family: 'Concert One';
-	text-shadow: 4px 4px #000000;
+	text-shadow: 4px 4px blue;
 	font-size: 64px;
 	text-align: center;
-	color: pink;
+	color: red;
 }
 
 h2 {
@@ -80,6 +80,10 @@ h2 {
 img {
 	border-style: dashed;
 	border-color: white;
+}
+
+#emmetthead {
+	width: 100%;
 }
 
 .wrapper {
